@@ -1,0 +1,244 @@
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+	}
+  #welcome-section {
+    height: 100vh;
+  }
+	#welcome-div {
+		height: 80px;
+    width: 100%;
+		overflow: hidden;
+		position: fixed;
+    top: 0;
+		left: 0;
+		background: #ccccff;
+	}
+#welcome-div img {
+		height: 70px;
+		float: left;
+		margin: 10px auto auto 60px;
+	}
+  #welcome-div nav {
+		float: right;
+    margin-right: 35px;
+    display: flex;
+		flex-direction: row;
+    font-family: 'Comfortaa', cursive;
+  }
+	#welcome-div .nav-link {
+    text-align: center;
+		padding: 40px 30px;
+		text-decoration: none;
+		color: black;
+		font-size: 17px;
+    font-weight: 900;
+	}
+	#welcome-div .nav-link:hover {
+  	background: #ffcc99;
+    color: #4700b3;
+    cursor: pointer;
+	}
+
+  #about img {
+    height: 400px;
+    margin-top: 140px;
+    background-color: white;
+    width: 100%;
+	}
+	#about div {
+		font-family: 'Courgette', cursive;
+    font-size: 55px;
+    margin-top: -350px;
+    text-align: center;
+	}
+  #about p {
+    font-family: 'Handlee', cursive;
+    font-size: 35px;
+    margin-top: -55px;
+  }
+
+  #projects {
+    background: url(https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Colorful-Circle-Simple-Background-Image-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    width: 100%;
+  }
+  #projects-intro {
+    width: 600px;
+    margin: auto;
+  }  
+  .intro {
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 900;
+    font-size: 35px;
+    color: white;
+    padding-top: 150px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+  }
+  #projects img {
+    width: 400px;
+  }
+  #projects .tile {
+    margin: 70px 12% 70px 12%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 50px;
+  }
+  #projects .project-tile {
+    justify-self: center; 
+    text-decoration: none;
+    background-color: #00b38f;
+    text-align: center;
+    border-radius: 3px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    font-size: 21px;
+    color: white;
+    width: 400px;
+  }
+  .project-tile:hover p::before {
+    content: "< ";
+    font-size: 21px;
+    color: #ff884d;
+    font-family: Arial;
+  }
+  .project-tile:hover p::after {
+    content: ' />';
+    font-size: 21px;
+    color: #ff884d;
+    font-family: Arial;
+  }
+  @media (max-width: 800px) {
+    #projects .tile {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+  }
+
+  #button {
+    text-decoration: none;
+  }
+  #button div {
+    background-color: #00b38f;
+    border-radius: 3px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    font-size: 21px;
+    color: white;
+    width: 125px;
+    height: 50px;
+    margin: 10px auto 10px auto;
+  }
+  #button div:hover {
+    background: #00cca3;
+    /*
+    transform: scale(1.1);
+    */
+  }
+  /*
+  #button p:hover::after {
+    content: ">";
+  }
+  */
+  .focus {
+    margin-left: 83%;
+    padding: 14px 0px;
+    transition: transform 0.5s;
+  }
+  .show {
+    background: transparent;
+    margin-top: -47%;
+    margin-left: 6%;
+  }
+  #button div:hover > .focus {
+    transform: translate(5px, 0px);
+  }
+
+  #contact {
+    background: url(https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Trendy-Pineapple-Simple-Background-Image.jpg);
+    background-size: 100% 100%; 
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    color: #262626;
+    letter-spacing: 0.5px;
+  }
+  #contact h2 {
+    margin: 0px;
+    padding-top: 100px;
+    font-size: 60px;
+  }
+  #contact p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+  #profile-link {
+    text-decoration: none;
+  }
+  #linkedin {
+    width: 100px;
+    margin-bottom: 50px;
+  }
+  #github {
+    width: 96px;
+    margin-right: 19px;
+    margin-bottom: 41px;
+  }
+  #ins {
+    width: 45px;
+    margin-bottom: 54px;
+  }
+  #email {
+    width: 90px;
+    margin-left: 30px;
+    margin-bottom: 43px;
+  }
+  #phone {
+    width: 50px;
+    margin-left: 20px;
+    margin-bottom: 53px;
+  }
+  .logo {
+    margin-top: -10px;
+    transition: transform 0.5s;
+  }
+  .logo:hover {
+    transform: translate(0px, 10px);
+  }
+
+  footer {
+    width: 100%;
+  }
+  .sep {
+    background-color: #ffaa00;
+    height: 12px;
+  }
+  .copy {
+    margin-top: -20px;
+    background-color: #1f3d7a;
+    color: white;
+    height: 80px;
+    text-align: right;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+  }
+  .copy p {
+    padding: 30px 65px 0px 0px;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+</style>

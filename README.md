@@ -1,2 +1,1 @@
-# Front-End
-freeCodeCamp Projects
+# Front-End Projects

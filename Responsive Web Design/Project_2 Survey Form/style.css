@@ -1,0 +1,62 @@
+<style media="screen">
+  body {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+  }
+  #title, #description {
+    color: #ffcc00;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-align: center; 
+  }
+  #survey-form {
+    background-color: #24478f;
+    padding: 40px 50px 40px 50px;
+    border-radius: 5px;
+    line-height: 1.5;
+    margin: 0% 20% 0% 20%;
+    color: #e6b800;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+  }
+  #name, #email, #number {
+    margin-top: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    width: 98%;
+    font-size: 15px;
+    text-align: left; 
+  }
+  #dropdown {
+    margin-top: 5px;
+    width: 100%;
+    font-size: 15px;
+    color: #737373;
+    height: 32px;
+  }
+  #recommend, #improve {
+    margin-top: 10px;
+  }
+  #comments {
+    margin-top: 5px;
+    padding: 5px;
+    width: 98%;
+    height: 100px;
+    font-size: 15px;
+  }
+  #submit {
+    width: 100%;
+    background-color: #39ac73;
+    border-radius: 2px;
+    border: none;
+    height: 40px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1px;
+  }
+  #submit:hover {
+    cursor: pointer;
+  }
+</style>
