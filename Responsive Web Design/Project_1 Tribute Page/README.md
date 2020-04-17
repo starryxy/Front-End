@@ -1,7 +1,7 @@
-FCC: Responsive Web Design Project1: Tribute Page
--------------------------------------------------
+# Responsive Web Design Project1: Tribute Page
 
+Preview [the page here](https://codepen.io/starryxy311/pen/ZEYpedE). 
 
-A [Pen](https://codepen.io/starryxy311/pen/ZEYpedE) by [starryxy](https://codepen.io/starryxy311) on [CodePen](https://codepen.io).
+<br> 
 
-[License](https://codepen.io/starryxy311/pen/ZEYpedE/license).
+[License](https://codepen.io/starryxy311/pen/ZEYpedE/license)
