@@ -1,7 +1,7 @@
-FCC: Responsive Web Design Project4 - Technical Documentation Page
-------------------------------------------------------------------
+## Responsive Web Design Project4 - Technical Documentation Page
 
+Preview [the web page here](https://codepen.io/starryxy311/pen/eYmgaqp).
 
-A [Pen](https://codepen.io/starryxy311/pen/eYmgaqp) by [starryxy](https://codepen.io/starryxy311) on [CodePen](https://codepen.io).
+<br>
 
-[License](https://codepen.io/starryxy311/pen/eYmgaqp/license).
+[License](https://codepen.io/starryxy311/pen/eYmgaqp/license)
