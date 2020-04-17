@@ -1,7 +1,7 @@
-FCC: Responsive Web Design Project5 - Personal Portfolio
---------------------------------------------------------
+## Responsive Web Design Project5 - Personal Portfolio
 
+Preview [the web page here](https://codepen.io/starryxy311/pen/YzPZxqM).
 
-A [Pen](https://codepen.io/starryxy311/pen/YzPZxqM) by [starryxy](https://codepen.io/starryxy311) on [CodePen](https://codepen.io).
+<br>
 
-[License](https://codepen.io/starryxy311/pen/YzPZxqM/license).
+[License](https://codepen.io/starryxy311/pen/YzPZxqM/license)
