@@ -1,7 +1,7 @@
-FCC: Responsive Web Design Project2 - Survey Form
--------------------------------------------------
+## Responsive Web Design Project2 - Survey Form
 
+Preview [the page here](https://codepen.io/starryxy311/pen/bGNwWeZ)
 
-A [Pen](https://codepen.io/starryxy311/pen/bGNwWeZ) by [starryxy](https://codepen.io/starryxy311) on [CodePen](https://codepen.io).
+<br> 
 
-[License](https://codepen.io/starryxy311/pen/bGNwWeZ/license).
+[License](https://codepen.io/starryxy311/pen/bGNwWeZ/license)
