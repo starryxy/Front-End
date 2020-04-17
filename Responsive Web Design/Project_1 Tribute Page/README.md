@@ -1,6 +1,6 @@
 ## Responsive Web Design Project1: Tribute Page
 
-Preview [the page here](https://codepen.io/starryxy311/pen/ZEYpedE). 
+Preview [the web page here](https://codepen.io/starryxy311/pen/ZEYpedE). 
 
 <br> 
 
