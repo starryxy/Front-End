@@ -1,6 +1,6 @@
 ## Responsive Web Design Project3 - Product Page
 
-Preview [the page here](https://codepen.io/starryxy311/pen/Jjobpwy).
+Preview [the web page here](https://codepen.io/starryxy311/pen/Jjobpwy).
 
 <br>
 
