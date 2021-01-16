@@ -55,7 +55,7 @@ Edit existing restaurant name
 Delete existing restaurant
 ![](static/delete_restaurant.png)
 
-http://0.0.0.0:5000/restaurant/%restaurant_id%, and http://0.0.0.0:5000/restaurant/%restaurant_id%/menu (replace %restaurant_id% with real restaurant_id number), show all the menu items that restaurant has. If a menu item is successfully added/edited/deleted, a message will show at top
+http://0.0.0.0:5000/restaurant/%restaurant_id%, or http://0.0.0.0:5000/restaurant/%restaurant_id%/menu (replace %restaurant_id% with real restaurant_id number), show all the menu items that restaurant has. If a menu item is successfully added/edited/deleted, a message will show at top
 ![](static/menu.png)
 
 If the restaurant doesn't have any menu item yet, show as below
