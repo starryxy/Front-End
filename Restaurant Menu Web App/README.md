@@ -43,7 +43,7 @@ css file that styles all web pages
 
 ## Web App Functionalities
 
-http://0.0.0.0:5000/, http://0.0.0.0:5000/hello, or http://0.0.0.0:5000/restaurants/ show all the restaurants
+http://0.0.0.0:5000/, http://0.0.0.0:5000/hello, or http://0.0.0.0:5000/restaurants/, show all the restaurants. If a restaurant is successfully added/edited/deleted, a message will show at top
 ![](static/restaurants.png)
 
 Add new restaurant
@@ -55,7 +55,7 @@ Edit existing restaurant name
 Delete existing restaurant
 ![](static/delete_restaurant.png)
 
-http://0.0.0.0:5000/restaurant/%restaurant_id%, and http://0.0.0.0:5000/restaurant/%restaurant_id%/menu show all the menu items that restaurant has
+http://0.0.0.0:5000/restaurant/%restaurant_id%, and http://0.0.0.0:5000/restaurant/%restaurant_id%/menu (replace %restaurant_id% with real restaurant_id number), show all the menu items that restaurant has. If a menu item is successfully added/edited/deleted, a message will show at top
 ![](static/menu.png)
 
 If the restaurant doesn't have any menu item yet, show as below
@@ -73,8 +73,8 @@ Delete existing menu item name
 http://0.0.0.0:5000/restaurants/json, return JSON object for all restaurants
 ![](static/restaurants_json.png)
 
-http://0.0.0.0:5000/restaurant/%restaurant_id%/menu/json, return JSON object for all menu items of the restaurant
+http://0.0.0.0:5000/restaurant/%restaurant_id%/menu/json (replace %restaurant_id% with real restaurant_id number), return JSON object for all menu items of the restaurant
 ![](static/restaurant_menu_items_json.png)
 
-http://0.0.0.0:5000/restaurant/%restaurant_id%/menu/%menu_id%/json, return JSON object for the menu item
+http://0.0.0.0:5000/restaurant/%restaurant_id%/menu/%menu_id%/json (replace %restaurant_id% and %menu_id% with real restaurant_id and menu_id numbers), return JSON object for the menu item
 ![](static/menu_item_json.png)
