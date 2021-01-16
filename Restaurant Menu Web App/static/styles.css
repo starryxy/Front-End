@@ -1,0 +1,97 @@
+body {
+    font-family: sans-serif;
+    background-color: #333333;
+}
+
+h1, h2 {
+    color: #cccccc;
+    font-family: 'georgia', serif;
+    padding: 5px;
+    margin: 2px;
+    border-bottom: 2px solid;
+    left: 50%;
+    text-align: center;
+}
+
+div {
+    color: #ffffcc;
+}
+
+h2 {
+    color: #ff9966;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    background-color: #ff4d4d;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    border: 2px solid #ff4d4d;
+    border-radius: 15px;
+}
+
+a:hover, a:active {
+    background-color: #ff3333;
+}
+
+.pane {
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    border: 2px solid;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
+    border-color: #999999;
+}
+
+.restaurantlink:link, .restaurantlink:visited {
+    background-color: transparent;
+    color: #ffffcc;
+    padding: 10px 10px;
+    border: none;
+}
+
+.restaurantlink:hover, .restaurantlink:active {
+    color: #ff9966;
+}
+
+.restaurant {
+    float: left;
+    width: 100%;
+}
+
+.create {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.name {
+    width: 50%;
+    float: left;
+}
+
+.price {
+    width: 50%;
+    text-align: right;
+    float: right;
+    color: #ffffcc;
+}
+
+.description {
+    color: #cccccc;
+}
+
+.editdelete {
+    font-size: 12px;
+    float: right;
+}
+
+.flash {
+    background: #ffffcc;
+    color: #ff4d4d;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
