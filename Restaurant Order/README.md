@@ -3,7 +3,7 @@
 ## Summary
 
 A program in Python that computes the cost of breakfast at the Good Morning America! restaurant.
-The program prompts the user for input and validate it before computing the results.
+The program prompts the user for breakfast item and quantity input and validate them before computing the results.
 
 ## Specific Functions
 
@@ -20,11 +20,10 @@ E.g. the customer can order two eggs with two toasts and a cup of coffee.
   - The prices for these breakfast choices are based on the prices of the individual food items that compose them.
   - The customer can add any of the food and drink items listed above to a small, regular, or big breakfast order. e.g. a customer may order a regular breakfast and add a coffee and an additional sausage to it.
 
-- The program displays the available choices in the following way:
+- The program displays the available choices as shown below, and the user will type the customer’s choice. E.g. if the customer wants a big breakfast, the user will type: `big breakfast <enter>`. The program will then ask for the `quantity` (how many big breakfasts). The program continues to ask for additional menu items by re-displaying the choices. When the customer is done ordering, the user enters `q`, the program then displays the pre-tax total, the tax, and the total with tax. Other scenarios are possible, in which the customer decides to customize the breakfast order.
 ```
 Enter item (q to terminate): small breakfast, regular breakfast, big breakfast, egg, bacon, sausage, hash brown, toast, coffee, tea:
 ```
-and the user will type the customer’s choice. E.g. if the customer wants a big breakfast, the user will type: `big breakfast <enter>`. The program will then ask for the `quantity` (how many big breakfasts). The program continues to ask for additional menu items by re-displaying the choices. When the customer is done ordering, the user enters `q`, the program then displays the pre-tax total, the tax, and the total with tax. Other scenarios are possible, in which the customer decides to customize the breakfast order.
 
 - The program will compute the total cost of the order with additional taxes of 13%. All the costs are to be rounded to the nearest penny, and displayed with a dollar sign and two decimal positions. E.g. a total cost of 13.66666 will be displayed as $13.67.
 
@@ -34,7 +33,7 @@ and the user will type the customer’s choice. E.g. if the customer wants a big
 
 - The program accepts case insensitive inputs, e.g. "BiG breaKfasT" and "big breakfast" will both be accepted. Additionally, it can deal with leading and trailing spaces, including cases when multiple spaces separate words in input lines, e.g. "small breakfast" and "small &nbsp; &nbsp; breakfast" will both be accepted.
 
-- The program can also detect and report invalid input. When menu items are requested, the program can check whether the input matches one of the provided menu items exactly (ignoring upper case and spaces). When quantities are requested, the program can validate whether the input is a number. When an invalid input is detected, the program will display an error message, and prompt for the input until the user enters it correctly.
+- The program can also detect and report invalid input. When menu item is requested, the program can check whether the input matches one of the provided menu items exactly (ignoring upper case and spaces). When quantity is requested, the program can validate whether the input is a number. When an invalid input is detected, the program will display an error message, and prompt for the input until the user enters it correctly.
 
 ## Example Runs
 
@@ -42,102 +41,16 @@ Run below code in terminal to start the Good Morning America! restaurant order p
 
 `python restaurant_order.py`
 
-![](example.png)
 
 #### Examples:
-<small> (input displayed in <font color="coral"> orange</font>) </small>
 
 <strong> Ordering a Small Breakfast: </strong>
-<br>
-<small>
-`Enter item (q to terminate): small breakfast, regular breakfast, big breakfast, egg, bacon, sausage, hash brown, toast, coffee, tea:`
-<font color="coral"> small breakfast </font>
-<br>
-`Enter quantity:`
-<font color="coral"> 1 </font>
-
-`Enter item (q to terminate): small breakfast, regular breakfast, big breakfast, egg, bacon, sausage, hash brown, toast, coffee, tea:`
-<font color="coral"> q </font>
-
-`Cost: 6.23`<br>
-`Tax: 0.81`<br>
-`Total: 7.04`
-
-`Process finished with exit code 0`
-</small>
-
+![](small_breakfast.png)
 
 <strong> Ordering a Custom Breakfast: </strong>
-<br>
-<small>
-`Enter item (q to terminate): small breakfast, regular breakfast, big breakfast, egg, bacon, sausage, hash brown, toast, coffee, tea:`
-<font color="coral"> egg </font>
-<br>
-`Enter quantity:`
-<font color="coral"> 2 </font>
-
-`Enter item (q to terminate): small breakfast, regular breakfast, big breakfast, egg, bacon, sausage, hash brown, toast, coffee, tea:`
-<font color="coral"> toast </font>
-<br>
-`Enter quantity:`
-<font color="coral"> 2 </font>
-
-`Enter item (q to terminate): small breakfast, regular breakfast, big breakfast, egg, bacon, sausage, hash brown, toast, coffee, tea:`
-<font color="coral"> hash brown </font>
-<br>
-`Enter quantity:`
-<font color="coral"> 1 </font>
-
-`Enter item (q to terminate): small breakfast, regular breakfast, big breakfast, egg, bacon, sausage, hash brown, toast, coffee, tea:`
-<font color="coral"> coffee </font>
-<br>
-`Enter quantity:`
-<font color="coral"> 1 </font>
-
-`Enter item (q to terminate): small breakfast, regular breakfast, big breakfast, egg, bacon, sausage, hash brown, toast, coffee, tea:`
-<font color="coral"> q </font>
-
-`Cost: 5.84`<br>
-`Tax: 0.76`<br>
-`Total: 6.60`
-
-`Process finished with exit code 0`
-</small>
-
+Test entering wrong item name and item that doesn't exist
+![](custom_order.png)
 
 <strong> Ordering for a Table of Three Customers: </strong>
-<br>
-<small>
-`Enter item (q to terminate): small breakfast, regular breakfast, big breakfast, egg, bacon, sausage, hash brown, toast, coffee, tea:`
-<font color="coral"> big breakfast </font>
-<br>
-`Enter quantity:`
-<font color="coral"> 2 </font>
-
-`Enter item (q to terminate): small breakfast, regular breakfast, big breakfast, egg, bacon, sausage, hash brown, toast, coffee, tea:`
-<font color="coral"> small breakfast </font>
-<br>
-`Enter quantity:`
-<font color="coral"> 1 </font>
-
-`Enter item (q to terminate): small breakfast, regular breakfast, big breakfast, egg, bacon, sausage, hash brown, toast, coffee, tea:`
-<font color="coral"> coffee </font>
-<br>
-`Enter quantity:`
-<font color="coral"> 1 </font>
-
-`Enter item (q to terminate): small breakfast, regular breakfast, big breakfast, egg, bacon, sausage, hash brown, toast, coffee, tea:`
-<font color="coral"> tea </font>
-<br>
-`Enter quantity:`
-<font color="coral"> 2 </font>
-
-`Enter item (q to terminate): small breakfast, regular breakfast, big breakfast, egg, bacon, sausage, hash brown, toast, coffee, tea:`
-<font color="coral"> q </font>
-
-`Cost: 40.94`<br>
-`Tax: 5.32`<br>
-`Total: 7.04`
-
-`Process finished with exit code 0`
-</small>
+Test entering item name and quantity with leading and trailing spaces, spaces between words or integers; item name with uppercase letters; quantity not in numeric format
+![](multi_customers.png)

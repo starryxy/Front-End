@@ -21,3 +21,8 @@ A web application based on Flask that queries a database using an Object-Relatio
 - [Product Page](https://codepen.io/starryxy311/pen/Jjobpwy)
 - [Technical Documentation Page](https://codepen.io/starryxy311/pen/eYmgaqp)
 - [Personal Portfolio](https://codepen.io/starryxy311/pen/YzPZxqM)
+
+
+## [Restaurant Order](Restaurant%20Order)
+
+A Python program that prompts the user for breakfast item and quantity inputs and validate inputs, then computes the cost, tax and total cost of ordered breakfast for Good Morning America! restaurant.
