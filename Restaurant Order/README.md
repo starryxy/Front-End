@@ -42,15 +42,15 @@ Run below code in terminal to start the Good Morning America! restaurant order p
 `python restaurant_order.py`
 
 
-#### Examples:
-
-<strong> Ordering a Small Breakfast: </strong>
+<strong> Order a Small Breakfast: </strong>
 ![](small_breakfast.png)
 
-<strong> Ordering a Custom Breakfast: </strong>
+<strong> Order a Custom Breakfast: </strong>
+<br>
 Test entering wrong item name and item that doesn't exist
 ![](custom_order.png)
 
-<strong> Ordering for a Table of Three Customers: </strong>
+<strong> Order for a Table of Three Customers: </strong>
+<br>
 Test entering item name and quantity with leading and trailing spaces, spaces between words or integers; item name with uppercase letters; quantity not in numeric format
 ![](multi_customers.png)
