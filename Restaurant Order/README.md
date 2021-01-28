@@ -31,7 +31,7 @@ Enter item (q to terminate): small breakfast, regular breakfast, big breakfast, 
 
 - The program will always request user to choose menu item first and then for its quantity.
 
-- The program accepts case insensitive inputs, e.g. "BiG breaKfasT" and "big breakfast" will both be accepted. Additionally, it can deal with leading and trailing spaces, including cases when multiple spaces separate words in input lines, e.g. "small breakfast" and "small &nbsp; &nbsp; breakfast" will both be accepted.
+- The program accepts case insensitive inputs, e.g. "BiG breaKfasT" and "big breakfast" will both be accepted. Additionally, it can deal with leading and trailing spaces, including cases when multiple spaces separate words in input lines, e.g. "small breakfast" and " small &nbsp; &nbsp; breakfast " will both be accepted.
 
 - The program can also detect and report invalid input. When menu item is requested, the program can check whether the input matches one of the provided menu items exactly (ignoring upper case and spaces). When quantity is requested, the program can validate whether the input is a number. When an invalid input is detected, the program will display an error message, and prompt for the input until the user enters it correctly.
 
@@ -43,14 +43,14 @@ Run below code in terminal to start the Good Morning America! restaurant order p
 
 
 <strong> Order a Small Breakfast: </strong>
-![](small_breakfast.png)
+![](images/small_breakfast.png)
 
 <strong> Order a Custom Breakfast: </strong>
 <br>
 Test entering wrong item name and item that doesn't exist
-![](custom_order.png)
+![](images/custom_order.png)
 
 <strong> Order for a Table of Three Customers: </strong>
 <br>
 Test entering item name and quantity with leading and trailing spaces, spaces between words or integers; item name with uppercase letters; quantity not in numeric format
-![](multi_customers.png)
+![](images/multi_customers.png)
